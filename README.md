@@ -5,15 +5,23 @@ ThreatVision AI is a modern cybersecurity platform designed to analyze IP addres
 
 It provides a centralized security dashboard where users can investigate suspicious indicators and gain a clearer understanding of potential cyber threats.
 
-🔑 Key Features of ThreatVision AI
-IP Address Analysis — Investigate IPs and identify suspicious or malicious activity.
-URL Threat Detection — Analyze URLs for potential phishing, malicious, or unsafe behavior.
-File Analysis — Scan files to identify potential security threats.
-Threat Intelligence — Gather and present security-related information from threat intelligence services.
-Risk Assessment — Help determine the potential threat level of analyzed indicators.
-Unified Security Dashboard — Analyze different threat indicators through a single, user-friendly interface.
-Real-Time API Integration — Fetch up-to-date threat intelligence through external security APIs.
-Responsive Interface — Clean and accessible dashboard for security analysis.
+## 🔑 Key Features of ThreatVision AI
+
+- **IP Address Analysis** — Investigate IPs and identify suspicious or malicious activity.
+
+- **URL Threat Detection** — Analyze URLs for potential phishing, malicious, or unsafe behavior.
+
+- **File Analysis** — Scan files to identify potential security threats.
+
+- **Threat Intelligence** — Gather and present security-related information from threat intelligence services.
+
+- **Risk Assessment** — Help determine the potential threat level of analyzed indicators.
+
+- **Unified Security Dashboard** — Analyze different threat indicators through a single, user-friendly interface.
+
+- **Real-Time API Integration** — Fetch up-to-date threat intelligence through external security APIs.
+
+- **Responsive Interface** — Clean and accessible dashboard for security analysis.
 
 🎯 What Problem Does It Solve?
 
