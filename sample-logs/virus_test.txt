@@ -1,0 +1,6 @@
+ThreatVision AI Security Test
+
+PowerShell
+Invoke-Expression
+DownloadString
+cmd.exe

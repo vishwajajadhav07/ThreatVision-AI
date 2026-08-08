@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ThreatVision AI | Cybersecurity Threat Detection</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <!-- Animated background -->
+    <div class="bg-grid"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div class="scan-effect"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <a href="dashboard.html" class="brand">
+            <div class="brand-shield">🛡</div>
+
+            <div>
+                <div class="brand-name">
+                    ThreatVision <span>AI</span>
+                </div>
+
+                <div class="brand-subtitle">
+                    SECURITY INTELLIGENCE
+                </div>
+            </div>
+        </a>
+
+
+        <div class="nav-links">
+
+            <a href="dashboard.html" class="nav-link active">
+                <span>▦</span>
+                Dashboard
+            </a>
+
+            <a href="upload.html" class="nav-link">
+                <span>⌁</span>
+                Security Scan
+            </a>
+
+        </div>
+
+
+        <div class="system-status">
+
+            <span class="status-light"></span>
+
+            <div>
+                <small>SYSTEM</small>
+                <strong>OPERATIONAL</strong>
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="container">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    <span class="live-dot"></span>
+                    CYBERSECURITY THREAT DETECTION PLATFORM
+                </div>
+
+                <h1>
+                    <span>Detect.</span>
+                    Respond.
+                </h1>
+
+                <p>
+                    Monitor security events, analyze suspicious files,
+                    investigate IP addresses and identify potential
+                    cyber threats from one intelligent security platform.
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a href="upload.html" class="primary-btn">
+                        <span>⚡</span>
+                        Start Security Scan
+                        <span class="arrow">→</span>
+                    </a>
+
+                    <div class="hero-security">
+                        <span class="mini-check">✓</span>
+                        Real-time threat monitoring
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+                <div class="radar">
+
+                    <div class="radar-ring ring-one"></div>
+                    <div class="radar-ring ring-two"></div>
+                    <div class="radar-ring ring-three"></div>
+
+                    <div class="radar-line"></div>
+
+                    <div class="radar-center">
+                        <span>TV</span>
+                    </div>
+
+                    <div class="radar-point point-one"></div>
+                    <div class="radar-point point-two"></div>
+                    <div class="radar-point point-three"></div>
+
+                </div>
+
+                <div class="radar-label">
+                    <span class="status-light"></span>
+                    THREAT MONITORING ACTIVE
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATS ================= -->
+
+        <section class="stats-grid">
+
+
+            <div class="stat-card">
+
+                <div class="stat-top">
+                    <span class="stat-label">TOTAL SCANS</span>
+                    <span class="stat-icon cyan">◉</span>
+                </div>
+
+                <div class="stat-value" id="totalScans">
+                    0
+                </div>
+
+                <div class="stat-bottom">
+                    Security analyses performed
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-top">
+                    <span class="stat-label">THREATS DETECTED</span>
+                    <span class="stat-icon red">⚠</span>
+                </div>
+
+                <div class="stat-value" id="threatsDetected">
+                    0
+                </div>
+
+                <div class="stat-bottom">
+                    Threat indicators identified
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-top">
+                    <span class="stat-label">CURRENT RISK</span>
+                    <span class="stat-icon yellow">◈</span>
+                </div>
+
+                <div class="stat-value risk-value" id="riskScore">
+                    Low
+                </div>
+
+                <div class="risk-bar">
+                    <span></span>
+                </div>
+
+            </div>
+
+
+            <div class="stat-card secure-stat">
+
+                <div class="stat-top">
+                    <span class="stat-label">SYSTEM STATUS</span>
+                    <span class="stat-icon green">✓</span>
+                </div>
+
+                <div class="stat-value secure-text">
+                    Secure
+                </div>
+
+                <div class="stat-bottom">
+                    <span class="status-light"></span>
+                    All monitoring services active
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ================= MAIN DASHBOARD ================= -->
+
+        <section class="dashboard-grid">
+
+
+            <!-- THREAT ACTIVITY -->
+
+            <div class="panel threat-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="panel-label">
+                            THREAT ANALYTICS
+                        </span>
+
+                        <h2>
+                            Threat Activity
+                        </h2>
+                    </div>
+
+                    <div class="live-tag">
+                        <span></span>
+                        LIVE
+                    </div>
+
+                </div>
+
+
+                <div class="activity-chart">
+
+                    <div class="chart-lines"></div>
+
+                    <div class="bar-group">
+
+                        <div class="chart-bar low"></div>
+                        <span>LOW</span>
+
+                    </div>
+
+                    <div class="bar-group">
+
+                        <div class="chart-bar medium"></div>
+                        <span>MED</span>
+
+                    </div>
+
+                    <div class="bar-group">
+
+                        <div class="chart-bar high"></div>
+                        <span>HIGH</span>
+
+                    </div>
+
+                    <div class="bar-group">
+
+                        <div class="chart-bar critical"></div>
+                        <span>CRIT</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="chart-footer">
+
+                    <span>
+                        Threat severity distribution
+                    </span>
+
+                    <span class="updated">
+                        ● Monitoring
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- SECURITY STATUS -->
+
+            <div class="panel security-panel">
+
+                <div class="panel-heading">
+
+                    <div>
+                        <span class="panel-label">
+                            SECURITY OVERVIEW
+                        </span>
+
+                        <h2>
+                            System Protection
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div class="security-center">
+
+                    <div class="security-ring">
+
+                        <div class="ring-progress"></div>
+
+                        <div class="ring-content">
+
+                            <strong>SECURE</strong>
+
+                            <span>ACTIVE</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="security-items">
+
+                    <div>
+                        <span class="check">✓</span>
+                        Threat monitoring
+                        <strong>Active</strong>
+                    </div>
+
+                    <div>
+                        <span class="check">✓</span>
+                        Security analysis
+                        <strong>Ready</strong>
+                    </div>
+
+                    <div>
+                        <span class="check">✓</span>
+                        Intelligence feed
+                        <strong>Connected</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ================= ALERTS ================= -->
+
+        <section class="panel alerts-panel">
+
+            <div class="panel-heading">
+
+                <div>
+                    <span class="panel-label">
+                        SECURITY MONITOR
+                    </span>
+
+                    <h2>
+                        Recent Security Alerts
+                    </h2>
+                </div>
+
+                <div class="monitoring">
+                    <span class="status-light"></span>
+                    MONITORING
+                </div>
+
+            </div>
+
+
+            <ul id="alerts">
+
+                <li class="empty-alert">
+
+                    <div class="alert-check">
+                        ✓
+                    </div>
+
+                    <div>
+                        <strong>
+                            No threats detected recently
+                        </strong>
+
+                        <span>
+                            ThreatVision AI is actively monitoring
+                            your security environment.
+                        </span>
+                    </div>
+
+                    <small>
+                        SECURE
+                    </small>
+
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- ================= QUICK ACTION ================= -->
+
+        <section class="scan-banner">
+
+            <div class="banner-content">
+
+                <div class="banner-icon">
+                    ⚡
+                </div>
+
+                <div>
+
+                    <span>
+                        SECURITY ANALYSIS
+                    </span>
+
+                    <h2>
+                        Ready to investigate a threat?
+                    </h2>
+
+                    <p>
+                        Scan a suspicious file or investigate an IP address
+                        and URL using threat intelligence.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <a href="upload.html" class="scan-button">
+
+                Start Security Scan
+
+                <span>→</span>
+
+            </a>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer>
+
+            <div class="footer-brand">
+                🛡 ThreatVision AI
+            </div>
+
+            <div>
+                Cybersecurity Threat Detection Platform
+            </div>
+
+            <div class="footer-status">
+                <span class="status-light"></span>
+                SYSTEM OPERATIONAL
+            </div>
+
+        </footer>
+
+
+    </main>
+
+
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

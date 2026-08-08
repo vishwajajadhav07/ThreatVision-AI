@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>ThreatVision AI - Security Scanner</title>
+
+    <link rel="stylesheet"
+          href="upload.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ================================
+     BACKGROUND EFFECTS
+================================= -->
+
+<div class="bg-grid"></div>
+
+<div class="glow glow-one"></div>
+
+<div class="glow glow-two"></div>
+
+<div class="scan-line"></div>
+
+
+
+<!-- ================================
+     HEADER
+================================= -->
+
+<header class="navbar">
+
+    <a href="dashboard.html"
+       class="brand">
+
+        <div class="brand-icon">
+            🛡
+        </div>
+
+        <div>
+
+            <div class="brand-name">
+                ThreatVision <span>AI</span>
+            </div>
+
+            <div class="brand-subtitle">
+                SECURITY INTELLIGENCE
+            </div>
+
+        </div>
+
+    </a>
+
+
+    <div class="header-center">
+
+        <span class="live-dot"></span>
+
+        SECURITY ANALYSIS CENTER
+
+    </div>
+
+
+    <a href="dashboard.html"
+       class="dashboard-link">
+
+        <span>←</span>
+
+        Dashboard
+
+    </a>
+
+</header>
+
+
+
+<!-- ================================
+     MAIN
+================================= -->
+
+<main class="main-container">
+
+
+    <!-- PAGE TITLE -->
+
+    <section class="page-title">
+
+        <div class="eyebrow">
+
+            <span class="status-dot"></span>
+
+            THREAT INVESTIGATION
+
+        </div>
+
+
+        <h1>
+
+            Security
+            <span>Threat Detection</span>
+
+        </h1>
+
+
+        <p>
+
+            Analyze suspicious files and investigate
+            IP addresses or URLs using real-time
+            threat intelligence.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- ================================
+         SCANNER GRID
+    ================================= -->
+
+    <div class="scanner-grid">
+
+
+
+        <!-- ============================
+             FILE SCANNER
+        ============================= -->
+
+        <section class="scanner-card">
+
+
+            <div class="card-top">
+
+                <div class="card-icon file-icon">
+                    ◈
+                </div>
+
+                <div class="card-status">
+
+                    <span></span>
+
+                    FILE ANALYSIS
+
+                </div>
+
+            </div>
+
+
+            <h2>
+                File Scanner
+            </h2>
+
+
+            <p class="card-description">
+
+                Upload a suspicious file and analyze
+                it for potential security threats,
+                malicious indicators and risk levels.
+
+            </p>
+
+
+
+            <!-- UPLOAD AREA -->
+
+            <div class="upload-area">
+
+
+                <div class="upload-glow"></div>
+
+
+                <div class="upload-icon">
+                    ↑
+                </div>
+
+
+                <h3>
+                    Drop your file here
+                </h3>
+
+
+                <p>
+                    or select a file from your computer
+                </p>
+
+
+                <input
+                    type="file"
+                    id="fileInput"
+                    class="file-input"
+                >
+
+
+                <label
+                    for="fileInput"
+                    class="choose-file"
+                >
+
+                    <span>＋</span>
+
+                    Choose File
+
+                </label>
+
+
+                <div
+                    id="selectedFile"
+                    class="selected-file"
+                >
+
+                    <span class="file-status-dot"></span>
+
+                    No file selected
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- SCAN BUTTON -->
+
+            <button
+                id="scanBtn"
+                class="primary-button"
+            >
+
+                <span class="button-icon">
+                    ⌁
+                </span>
+
+                Scan File
+
+                <span class="button-arrow">
+                    →
+                </span>
+
+            </button>
+
+
+
+            <!-- RESULT -->
+
+            <div
+                id="resultBox"
+                class="result-box"
+                style="display:none;"
+            ></div>
+
+
+        </section>
+
+
+
+
+        <!-- ============================
+             IP / URL CHECKER
+        ============================= -->
+
+        <section class="scanner-card">
+
+
+            <div class="card-top">
+
+                <div class="card-icon network-icon">
+                    ◉
+                </div>
+
+                <div class="card-status">
+
+                    <span></span>
+
+                    THREAT INTELLIGENCE
+
+                </div>
+
+            </div>
+
+
+            <h2>
+                IP / URL Checker
+            </h2>
+
+
+            <p class="card-description">
+
+                Investigate an IP address or website
+                using real AbuseIPDB threat intelligence
+                and historical security reports.
+
+            </p>
+
+
+
+            <!-- IP / URL INPUT -->
+
+            <div class="url-input-container">
+
+                <label for="ipInput">
+
+                    IP ADDRESS OR URL
+
+                </label>
+
+
+                <div class="input-wrapper">
+
+                    <span class="input-icon">
+                        ⌁
+                    </span>
+
+
+                    <input
+                        type="text"
+                        id="ipInput"
+                        class="text-input"
+                        placeholder="192.42.116.210 or example.com"
+                    >
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HISTORY -->
+
+            <div class="url-input-container">
+
+                <label for="ageInput">
+
+                    REPORT HISTORY
+
+                </label>
+
+
+                <div class="select-wrapper">
+
+                    <span class="input-icon">
+                        ◷
+                    </span>
+
+
+                    <select
+                        id="ageInput"
+                        class="text-input"
+                    >
+
+                        <option value="30">
+                            Last 30 Days
+                        </option>
+
+                        <option value="90">
+                            Last 90 Days
+                        </option>
+
+                        <option value="365">
+                            Last 365 Days
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- INTELLIGENCE INFO -->
+
+            <div class="intel-info">
+
+
+                <div class="intel-item">
+
+                    <span class="intel-icon">
+                        ✓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            AbuseIPDB
+                        </strong>
+
+                        <small>
+                            Threat intelligence
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="intel-item">
+
+                    <span class="intel-icon">
+                        ◉
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Live Analysis
+                        </strong>
+
+                        <small>
+                            Real-time lookup
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- CHECK BUTTON -->
+
+            <button
+                id="ipCheckBtn"
+                class="primary-button"
+            >
+
+                <span class="button-icon">
+                    ◉
+                </span>
+
+                Check IP / URL
+
+                <span class="button-arrow">
+                    →
+                </span>
+
+            </button>
+
+
+
+            <!-- RESULT -->
+
+            <div
+                id="ipResultBox"
+                class="result-box"
+                style="display:none;"
+            ></div>
+
+
+        </section>
+
+
+    </div>
+
+
+
+    <!-- ================================
+         SECURITY FOOTER
+    ================================= -->
+
+    <section class="security-footer">
+
+
+        <div class="security-footer-left">
+
+            <div class="shield-small">
+                🛡
+            </div>
+
+
+            <div>
+
+                <strong>
+                    ThreatVision AI Security Engine
+                </strong>
+
+                <span>
+                    Advanced threat investigation environment
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="engine-status">
+
+            <span class="status-dot"></span>
+
+            ENGINE OPERATIONAL
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <span>
+            🛡 ThreatVision AI
+        </span>
+
+        <span>
+            Cybersecurity Threat Detection Platform
+        </span>
+
+        <span>
+            SYSTEM SECURE
+        </span>
+
+    </footer>
+
+
+</main>
+
+
+
+<script src="upload.js"></script>
+
+</body>
+
+</html>

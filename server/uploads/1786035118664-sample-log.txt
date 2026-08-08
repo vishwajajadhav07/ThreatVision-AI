@@ -1,0 +1,17 @@
+User Login Successful
+
+Failed login
+Failed login
+Failed login
+Failed login
+Failed login
+
+GET /login?id=' OR 1=1 --
+
+<script>alert("XSS")</script>
+
+GET ../../etc/passwd
+
+rm -rf /
+
+User Logout
