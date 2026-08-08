@@ -53,6 +53,26 @@ ThreatVision AI brings these investigations together into a single platform, hel
 * **Runtime:** Node.js
 
 
+## ⚙️ How It Works
+
+ThreatVision AI transforms suspicious indicators into actionable security intelligence through a streamlined analysis process:
+
+**Submit**
+Enter an **IP address, URL, or file** for investigation.
+
+**Analyze**
+ThreatVision AI processes the indicator using integrated **threat intelligence and security APIs**.
+
+**Detect**
+The platform identifies **potential threats, malicious activity, and security risks**.
+
+**Investigate**
+View detailed findings and **risk information** through the centralized security dashboard.
+
+**Act**
+Use the generated intelligence to **understand threats and make faster security decisions**.
+
+
 
 ## 🚀 Future Scope 
 
