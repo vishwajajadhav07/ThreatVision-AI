@@ -1,5 +1,6 @@
-🛡️ ThreatVision AI
-AI-Powered Cybersecurity Threat Intelligence Platform
+# **🛡️ ThreatVision AI**
+
+### **AI-Powered Cybersecurity Threat Intelligence Platform**
 
 ThreatVision AI is a modern cybersecurity platform designed to analyze IP addresses, URLs, and files to identify potential threats, assess security risks, and transform security data into actionable intelligence.
 
@@ -23,42 +24,54 @@ It provides a centralized security dashboard where users can investigate suspici
 
 - **Responsive Interface** — Clean and accessible dashboard for security analysis.
 
-🎯 What Problem Does It Solve?
+## 🎯 What Problem Does It Solve?
 
-Cybersecurity analysts often need to investigate different types of indicators such as IP addresses, URLs, and files when determining whether something is suspicious.
+Cybersecurity analysts often need to investigate different types of indicators such as IP addresses, URLs, and files to determine whether something is suspicious.
 
 ThreatVision AI brings these investigations together into a single platform, helping users:
 
-Detect potentially malicious indicators
-Understand threat severity
-Investigate suspicious activity
-Reduce manual analysis
-Make faster security decisions
+* Detect potentially malicious indicators
+* Understand threat severity
+* Investigate suspicious activity
+* Reduce manual analysis
+* Make faster security decisions
 
-🛠️ Tech Stack — ThreatVision AI
-Frontend: HTML5, CSS3, JavaScript
-Backend: Node.js, Express.js
-API Integration: REST APIs
-Threat Intelligence: AbuseIPDB API
-Security: Environment Variables 
-Development: Visual Studio Code
-Version Control: Git & GitHub
-Runtime: Node.js
 
-🚀 Future Scope — ThreatVision AI
-AI-Powered Threat Classification — Automatically classify threats as malicious, suspicious, or safe.
-Advanced Malware Analysis — Detect and analyze malicious files and malware behavior.
-Multi-Source Threat Intelligence — Integrate additional security APIs and threat databases.
- Domain & DNS Analysis — Investigate domains, DNS records, and associated infrastructure.
- Advanced Analytics — Add threat trends, historical data, charts, and security reports. 
-Real-Time Threat Monitoring — Continuously monitor indicators and generate alerts. 
-User Authentication — Add secure login, user accounts, and role-based access.
-Cloud Deployment — Deploy the platform for secure access from anywhere.
-Automated Security Recommendations — Provide actionable remediation suggestions based on detected threats. 
-Mobile-Friendly Security Dashboard — Extend the platform for mobile and tablet devices.
+## 🛠️ Tech Stack — ThreatVision AI
+
+* **Frontend:** HTML5, CSS3, JavaScript
+* **Backend:** Node.js, Express.js
+* **API Integration:** REST APIs
+* **Threat Intelligence:** AbuseIPDB API
+* **Security:** Environment Variables
+* **Development:** Visual Studio Code
+* **Version Control:** Git & GitHub
+* **Runtime:** Node.js
+
+
+## 🚀 Future Scope — ThreatVision AI
+
+* **AI-Powered Threat Classification** — Automatically classify threats as malicious, suspicious, or safe.
+
+* **Advanced Malware Analysis** — Detect and analyze malicious files and malware behavior.
+
+* **Multi-Source Threat Intelligence** — Integrate additional security APIs and threat databases.
+
+* **Domain & DNS Analysis** — Investigate domains, DNS records, and associated infrastructure.
+
+* **Advanced Analytics** — Add threat trends, historical data, charts, and security reports.
+
+* **Real-Time Threat Monitoring** — Continuously monitor indicators and generate alerts.
+
+* **User Authentication** — Add secure login, user accounts, and role-based access.
+
+* **Cloud Deployment** — Deploy the platform for secure access from anywhere.
+
+* **Automated Security Recommendations** — Provide actionable remediation suggestions based on detected threats.
+
+* **Mobile-Friendly Security Dashboard** — Extend the platform for mobile and tablet devices.
 
 ## 👩‍💻 Author
 
 **Vishwaja Jadhav**
 Computer Science & Engineering Student
-
