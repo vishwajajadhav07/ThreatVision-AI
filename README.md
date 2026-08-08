@@ -57,19 +57,19 @@ ThreatVision AI brings these investigations together into a single platform, hel
 
 ThreatVision AI transforms suspicious indicators into actionable security intelligence through a streamlined analysis process:
 
-**Submit**
+**Submit:**
 Enter an **IP address, URL, or file** for investigation.
 
-**Analyze**
+**Analyze:**
 ThreatVision AI processes the indicator using integrated **threat intelligence and security APIs**.
 
-**Detect**
+**Detect:**
 The platform identifies **potential threats, malicious activity, and security risks**.
 
-**Investigate**
+**Investigate:**
 View detailed findings and **risk information** through the centralized security dashboard.
 
-**Act**
+**Act:**
 Use the generated intelligence to **understand threats and make faster security decisions**.
 
 
