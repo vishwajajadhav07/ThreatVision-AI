@@ -95,10 +95,11 @@ Use the generated intelligence to **understand threats and make faster security 
 * **Automated Security Recommendations** — Provide actionable remediation suggestions based on detected threats.
 
 * **Mobile-Friendly Security Dashboard** — Extend the platform for mobile and tablet devices.
-
   
 
-## 👩‍💻 Author
+## 👥 Team
 
-**Vishwaja Jadhav**
+**Vishwaja Jadhav & Jay Ingle**
+
+Collaboratively designed and developed ThreatVision AI with a shared focus on cybersecurity and threat intelligence.
 
